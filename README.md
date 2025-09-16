@@ -1,5 +1,5 @@
-# Tic tac toe (or XO)  
-This is a basic tic tac toe game made with TKinter in Python. Users can play against a bot or against another player (only locally).  
+# Tic tac toe
+This is a basic Tic Tac Toe game made with TKinter in Python. Users can play against a bot or against another player (locally).   
 
 
 ## Installation  
