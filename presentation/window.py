@@ -4,4 +4,8 @@ from tkinter import Tk, ttk
 
 
 class MainWindow():
-    pass
+    def __init__(self):
+        window = Tk()
+
+        window.title('Tic Tac Toe')
+        window.mainloop()

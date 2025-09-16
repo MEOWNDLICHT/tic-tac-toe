@@ -4,9 +4,11 @@ from abc import ABC, abstractmethod
 
 
 class Player(ABC):
-    def __init__(self, name: str, score: int):
+    def __init__(self, name: str, score: int, role:str):
         self.name = name
         self.score = score
+        self.role = role
+
 
     @abstractmethod
     def move():
@@ -14,16 +16,16 @@ class Player(ABC):
 
 
 class Human(Player):
-    def __init__(self, name, score):
-        super().__init__(name, score)
+    def __init__(self, name, score, role):
+        super().__init__(name, score, role)
 
     def move():
         pass
 
 
 class Bot(Player):
-    def __init__(self, name, score):
-        super().__init__(name, score)
+    def __init__(self, name, score, role):
+        super().__init__(name, score, role)
 
     def move():
         pass
