@@ -1,2 +1,0 @@
-""" Bot moves logic """
-
